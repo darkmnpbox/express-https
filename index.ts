@@ -50,6 +50,10 @@ app.get('/', (req: Request, res: Response) => {
     res.send(`<h1>HOME PAGE</h1>`);
 })
 
+app.post('/', (req: Request, res: Response) => {
+    res.send(`<p>Created Post</p>`)
+})
+
 // pubic api data collecting
 app.get('/api/public', async (req: Request, res: Response) => {
     try {

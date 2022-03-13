@@ -12,6 +12,7 @@
 
 ### Command to Run
     - Install node_modules `npm install`.
+    - Then Build you application using `npm run build`.
     - start application `npm start` or `npm run start`.
 
 
